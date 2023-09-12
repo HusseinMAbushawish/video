@@ -1,0 +1,54 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package linked.list;
+
+/**
+ *
+ * @author Althega
+ */
+public class LinkedList {
+
+    
+    public static void main(String[] args) {
+      MyLinkedList m = new MyLinkedList();
+      m.addFirst(3);
+      m.addFirst(6);
+      m.addFirst(2);
+     m.addLast(22);
+      m.addLast(33);
+       m.addLast(44);
+       m.addLast(22);
+      m.addLast(33);
+       m.addLast(44);   
+      m.delete(6);
+       m.addAtMid(60);
+      m.print();
+      m.findMiddle();
+      m.size();
+             
+     
+
+        
+    }
+    
+}
+/*
+
+ Output : 
+
+2 --> 3 --> 22 --> 33 --> 60 --> 44 --> 22 --> 33 --> 44 --> 
+The middle element is [60] 
+
+the size is : 9
+
+
+
+
+
+
+
+
+*/
